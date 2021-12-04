@@ -2,7 +2,7 @@
 display: flex;
 padding: 16px 32px 8px;
 margin: 8px 12px;
-background-color: #00ffff;
+background-color: white;
 font-family: 'Courier New', Courier, monospace;
 font-size: 32px;
 }
@@ -56,5 +56,5 @@ margin-right: auto;
 
 .button2:hover {
     background-color: #cc0000;
-    color: red;
+    color: green;
 }
