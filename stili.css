@@ -1,10 +1,11 @@
 .teksts {
+text-align:left;
 display: flex;
-padding: 16px 32px 8px;
-margin: 8px 12px;
-background-color: white;
+padding: 8px 16px 5px;
+margin: 4px 6px;
+background-color: #00ffff;
 font-family: 'Courier New', Courier, monospace;
-font-size: 32px;
+font-size: 16px;
 }
 .centrs {
 text-align:center;
@@ -16,45 +17,40 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-.arejaKaste {
-    border-style: ridge
-    border-color: black;
-    border-width:10px;
-    background-color: #ff66cc;
-    padding: 10px 10px 10px 10px;
-    margin: 50px 20px 50px 20px;
-    width: 60%;
+.arejaKaste{
+border-style:ridge;
+border-color:#669999;
+border-width:10px;
+background-color:lightblue;
+padding: 10px 10px 10px 10px;
+margin: auto;
+width:28%;
 }
 .button1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #3366ff;
-    padding: 10px 20px;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    top: 59%;
-    left: 55%;  
+background-color: white;
+color: black;
+border: 2px solid #33cc33;
+padding: 10px 20px;
+cursor: pointer;
+position: absolute;
+top: 59%;
+left: 55%;
 }
-
 .button1:hover {
-    background-color: #66ccff;
-    color: red;
+background-color: #33cc33;
+color: white;
 }
-
 .button2 {
-    background-color: white;
-    color: black;
-    border: 2px solid #ff0000;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: underline overline;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+background-color: white;
+color: black;
+border: 2px solid #ff0000;
+padding: 10px 20px;
+cursor: pointer;
+position: absolute;
+top: 59%;
+right: 56%;
 }
-
 .button2:hover {
-    background-color: #cc0000;
-    color: green;
+background-color: #cc0000;
+color: white;
 }
